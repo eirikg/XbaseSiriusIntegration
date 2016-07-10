@@ -1,0 +1,13 @@
+    import java.util.List
+     
+        entity Person {
+            name: String
+            firstName: String
+            friends: List<Person>
+            address : Address
+        }
+        entity Address {
+            street: String
+            zip: String
+            city: String
+        }
