@@ -3,7 +3,6 @@ Bundle-ManifestVersion: 2
 Bundle-Name: org.example.test.domainmodel.design
 Bundle-SymbolicName: org.example.test.domainmodel.design;singleton:=true
 Bundle-Version: 1.0.0
-Bundle-ClassPath: bin
 Bundle-Activator: org.example.test.domainmodel.design.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,

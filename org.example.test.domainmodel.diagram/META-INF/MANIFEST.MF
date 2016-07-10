@@ -3,7 +3,6 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Test Diagram
 Bundle-SymbolicName: org.example.test.domainmodel.diagram
 Bundle-Version: 1.0.0.qualifier
-Bundle-ClassPath: bin
 Bundle-Activator: org.example.test.domainmodel.diagram.Activator
 Require-Bundle: org.eclipse.xtext.xbase;bundle-version="2.10.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
