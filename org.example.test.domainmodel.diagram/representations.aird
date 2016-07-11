@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:domainmodel="http://www.example.org/domainmodel/Domainmodel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_tmHwoEaHEeaV5pZoJk2hSQ" selectedViews="_XPLuYEaIEeaV5pZoJk2hSQ _YDYWAEaJEeaV5pZoJk2hSQ" version="11.1.0.201606300900">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:domainmodel="http://www.example.org/domainmodel/Domainmodel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_tmHwoEaHEeaV5pZoJk2hSQ" selectedViews="_WlSWkEdpEea3_IzJhfIFbA" version="11.1.0.201606300900">
   <semanticResources>My.dmodel</semanticResources>
   <semanticResources>java:/Objects/java.lang.String</semanticResources>
   <semanticResources>java:/Objects/java.lang.Object</semanticResources>
@@ -655,6 +655,125 @@
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_xC0ZpUaKEeaV5pZoJk2hSQ"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer"/>
       <target xmi:type="domainmodel:Domainmodel" href="My.dmodel#/0"/>
+    </ownedRepresentations>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_WlSWkEdpEea3_IzJhfIFbA">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']"/>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_WobxMEdpEea3_IzJhfIFbA" name="Entity">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_WobxMUdpEea3_IzJhfIFbA" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_WobxMkdpEea3_IzJhfIFbA"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_WpQ3oEdpEea3_IzJhfIFbA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_WpQ3oUdpEea3_IzJhfIFbA" type="Sirius" element="_WobxMEdpEea3_IzJhfIFbA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_WpgIMEdpEea3_IzJhfIFbA" type="2001" element="_WobxM0dpEea3_IzJhfIFbA">
+            <children xmi:type="notation:Node" xmi:id="_Wp-CQEdpEea3_IzJhfIFbA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Wp-CQUdpEea3_IzJhfIFbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_WqK2kEdpEea3_IzJhfIFbA" type="3003" element="_WobxNEdpEea3_IzJhfIFbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_WqK2kUdpEea3_IzJhfIFbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WqK2kkdpEea3_IzJhfIFbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WpgIMUdpEea3_IzJhfIFbA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WpgIMkdpEea3_IzJhfIFbA" x="270" y="120" width="211" height="166"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WqIaUEdpEea3_IzJhfIFbA" type="2001" element="_WobxNUdpEea3_IzJhfIFbA">
+            <children xmi:type="notation:Node" xmi:id="_WqJBYEdpEea3_IzJhfIFbA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_WqJBYUdpEea3_IzJhfIFbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_WqMEsEdpEea3_IzJhfIFbA" type="3003" element="_WobxNkdpEea3_IzJhfIFbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_WqMEsUdpEea3_IzJhfIFbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WqMEskdpEea3_IzJhfIFbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WqIaUUdpEea3_IzJhfIFbA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WqIaUkdpEea3_IzJhfIFbA" x="555" y="120" width="181" height="181"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_WpQ3okdpEea3_IzJhfIFbA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_WobxM0dpEea3_IzJhfIFbA" name="Person" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.0"/>
+        <semanticElements xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_WobxNEdpEea3_IzJhfIFbA" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_WobxNUdpEea3_IzJhfIFbA" name="Address" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.1"/>
+        <semanticElements xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_WobxNkdpEea3_IzJhfIFbA" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_WobxN0dpEea3_IzJhfIFbA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer"/>
+      <target xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.0"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_Wrj9sEdpEea3_IzJhfIFbA" name="Entity">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Wrj9sUdpEea3_IzJhfIFbA" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Wrj9skdpEea3_IzJhfIFbA"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Wrj9uEdpEea3_IzJhfIFbA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_Wrj9uUdpEea3_IzJhfIFbA" type="Sirius" element="_Wrj9sEdpEea3_IzJhfIFbA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_Wrj9u0dpEea3_IzJhfIFbA" type="2001" element="_Wrj9s0dpEea3_IzJhfIFbA">
+            <children xmi:type="notation:Node" xmi:id="_WrlL0EdpEea3_IzJhfIFbA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_WrlL0UdpEea3_IzJhfIFbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_WrtHoEdpEea3_IzJhfIFbA" type="3003" element="_Wrj9tEdpEea3_IzJhfIFbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_WrtHoUdpEea3_IzJhfIFbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrtHokdpEea3_IzJhfIFbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Wrj9vEdpEea3_IzJhfIFbA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wrj9vUdpEea3_IzJhfIFbA" x="240" y="150" width="136" height="150"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WrqEUEdpEea3_IzJhfIFbA" type="2001" element="_Wrj9tUdpEea3_IzJhfIFbA">
+            <children xmi:type="notation:Node" xmi:id="_Wrr5gEdpEea3_IzJhfIFbA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Wrr5gUdpEea3_IzJhfIFbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_WrtusEdpEea3_IzJhfIFbA" type="3003" element="_Wrj9tkdpEea3_IzJhfIFbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_WrtusUdpEea3_IzJhfIFbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrtuskdpEea3_IzJhfIFbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WrqEUUdpEea3_IzJhfIFbA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrqEUkdpEea3_IzJhfIFbA" x="495" y="120" width="181" height="150"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_Wrj9ukdpEea3_IzJhfIFbA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Wrj9s0dpEea3_IzJhfIFbA" name="Person" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.0"/>
+        <semanticElements xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Wrj9tEdpEea3_IzJhfIFbA" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Wrj9tUdpEea3_IzJhfIFbA" name="Address" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.1"/>
+        <semanticElements xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Wrj9tkdpEea3_IzJhfIFbA" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer/@nodeMappings[name='EntityNode']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_Wrj9t0dpEea3_IzJhfIFbA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.example.test.domainmodel.design/description/domainmodel.odesign#//@ownedViewpoints[name='TestViewpoint']/@ownedRepresentations[name='TestDomainModel']/@defaultLayer"/>
+      <target xmi:type="domainmodel:Entity" href="My.dmodel#/0/@elements.1"/>
     </ownedRepresentations>
   </ownedViews>
 </viewpoint:DAnalysis>

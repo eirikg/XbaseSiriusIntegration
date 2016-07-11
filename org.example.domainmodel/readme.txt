@@ -18,7 +18,7 @@ You may check in the OSGi Console that all the bundles are started (STARTING or 
 If not, you can start them manually from the OSGi console.
 
 Open the the Entity diagram in the diagram bundle. 
-- It is possible that you have to right click the digaram bundle and select the TestViewpoint before opening the diagram
+- It is possible that you have to right click the diagram bundle and select the TestViewpoint before opening the diagram
 Make the editor dirty by moving an entity (Person or Address) and save the diagram. 
 
 This should generate the unsupported operation exception.
