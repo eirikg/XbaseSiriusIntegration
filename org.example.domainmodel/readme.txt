@@ -17,5 +17,8 @@ After cloning, import the diagram bundle in the target IDE and the rest of the b
 You may check in the OSGi Console that all the bundles are started (STARTING or ACTIVE state) after launching the target IDE.
 If not, you can start them manually from the OSGi console.
 
-Open the the Entity diagram in the diagram bundle. Make the editor dirty by moving an entity (Person or Address) and save the diagram. 
+Open the the Entity diagram in the diagram bundle. 
+- It is possible that you have to right click the digaram bundle and select the TestViewpoint before opening the diagram
+Make the editor dirty by moving an entity (Person or Address) and save the diagram. 
+
 This should generate the unsupported operation exception.
