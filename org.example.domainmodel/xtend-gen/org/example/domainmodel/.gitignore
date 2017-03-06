@@ -4,3 +4,5 @@
 # /.DomainmodelStandaloneSetup.xtendbin
 # /DomainmodelRuntimeModule.java
 # /DomainmodelStandaloneSetup.java
+/.DomainmodelRuntimeModule.java._trace
+/.DomainmodelStandaloneSetup.java._trace
