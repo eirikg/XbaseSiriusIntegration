@@ -12,13 +12,23 @@ org.example.domainmodel.*  - Xtext(*.ide, *.ui, *.tests & *.ui.tests) and EMF (*
 
 The two Sirius related bundles are; - org.example.test.domainmodel.diagram and - org.example.test.domainmodel.design
 
-After cloning, import the diagram bundle in the target IDE and the rest of the bundles in the source IDE
+After cloning or forking, import the diagram bundle in the target IDE and the rest of the bundles in the source IDE
 
 You may check in the OSGi Console that all the bundles are started (STARTING or ACTIVE state) after launching the target IDE.
 If not, you can start them manually from the OSGi console.
 
-Open the the Entity diagram in the diagram bundle. 
-- It is possible that you have to right click the diagram bundle and select the TestViewpoint before opening the diagram
-Make the editor dirty by moving an entity (Person or Address) and save the diagram. 
 
+Verify the DeferredLayout NPE
+
+1) Open both the diagram and the text version of My.dmodel at the same time
+	a) Open the the Entity diagram in the diagram bundle.
+	b) Open and add a new entity in My.dmodel in the text editor. e.g. entity Person1 {}  
+	In general you must make a change in My.dmodel that forces Sirius to recalculate the layout after a Save
+3) Save My.dmodel to generate the NPE
+
+Resolved: Verify Save Exception
+
+Open the the Entity diagram in the diagram bundle. 
+Make the editor dirty by moving an entity (Person or Address) and save the diagram. 
 This should generate the unsupported operation exception.
+
